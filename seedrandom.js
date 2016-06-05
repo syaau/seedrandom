@@ -34,7 +34,7 @@ var global = this,
     startdenom = math.pow(width, chunks),
     significance = math.pow(2, digits),
     overflow = significance * 2,
-    mask = width - 1,
+    mask = width - 1;
 
 //
 // seedrandom()
